@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/python3
 
-# pip3 install tweepy
+# python3 -m pip install tweepy --no-cache-dir
 
 import os
 import time
