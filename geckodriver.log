@@ -1,0 +1,631 @@
+1639604999892	geckodriver	INFO	Listening on 127.0.0.1:50625
+1639605002966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50626" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilewl0PmY"
+1639605003254	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilewl0PmY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50626/devtools/browser/58c09614-c667-4898-8957-af9344ef848f
+1639605004995	Marionette	INFO	Listening on port 50632
+1639605005032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639605010654	Marionette	INFO	Stopped listening on port 50632
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639605252279	geckodriver	INFO	Listening on 127.0.0.1:50778
+1639605255352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50779" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileQwTGU8"
+1639605255617	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileQwTGU8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50779/devtools/browser/1bc585f1-b743-4e33-9f87-69036317198b
+1639605257328	Marionette	INFO	Listening on port 50786
+1639605257402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639605263040	Marionette	INFO	Stopped listening on port 50786
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639605303175	geckodriver	INFO	Listening on 127.0.0.1:50877
+1639605306287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50878" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile48eFN6"
+1639605306531	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile48eFN6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50878/devtools/browser/2621dd44-e1b5-440b-861c-acd6e96f96a0
+1639605308344	Marionette	INFO	Listening on port 50884
+1639605308456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639605314547	Marionette	INFO	Stopped listening on port 50884
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639605379313	geckodriver	INFO	Listening on 127.0.0.1:50985
+1639605382385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50986" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile8GE5jc"
+1639605382635	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile8GE5jc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50986/devtools/browser/e69d6410-b5b3-4a67-8d14-e384e58ec247
+1639605384333	Marionette	INFO	Listening on port 50992
+1639605384446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639605389189	Marionette	INFO	Stopped listening on port 50992
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1639606038782	geckodriver	INFO	Listening on 127.0.0.1:51276
+1639606041882	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51277" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilepfGMDq"
+1639606042139	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilepfGMDq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51277/devtools/browser/692e4198-226b-4c0a-8d31-bc8440e45b84
+1639606043888	Marionette	INFO	Listening on port 51283
+1639606043936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606056095	Marionette	INFO	Stopped listening on port 51283
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1639606084665	geckodriver	INFO	Listening on 127.0.0.1:51356
+1639606087760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51357" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilelcyBGB"
+1639606088000	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilelcyBGB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51357/devtools/browser/1d97fbfa-db84-4622-86de-2094f4a11174
+1639606089720	Marionette	INFO	Listening on port 51363
+1639606089805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606093084	Marionette	INFO	Stopped listening on port 51363
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639606323907	geckodriver	INFO	Listening on 127.0.0.1:51594
+1639606327000	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51595" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileHZZ8n7"
+1639606327248	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileHZZ8n7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51595/devtools/browser/f70109ff-4021-4163-aaba-70b51bd5b47c
+1639606328993	Marionette	INFO	Listening on port 51603
+1639606329064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606336430	Marionette	INFO	Stopped listening on port 51603
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639606400103	geckodriver	INFO	Listening on 127.0.0.1:51705
+1639606403187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51706" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileNGURuQ"
+1639606403435	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileNGURuQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51706/devtools/browser/eb400c77-c02e-49a2-943e-2a1908c3e324
+1639606405140	Marionette	INFO	Listening on port 51712
+1639606405243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606424079	Marionette	INFO	Stopped listening on port 51712
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ozprofileFDIQyr"
+1639606416659	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileFDIQyr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51771/devtools/browser/327f1cfe-6d2c-4c99-a81f-d306f1bd10b7
+1639606418439	Marionette	INFO	Listening on port 51779
+1639606418465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606422556	Marionette	INFO	Stopped listening on port 51779
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1639606449347	geckodriver	INFO	Listening on 127.0.0.1:51854
+1639606452419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51855" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileeFBu1j"
+1639606452667	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileeFBu1j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51855/devtools/browser/0f81d42a-5d1f-4651-9b22-ea510b59d552
+1639606454506	Marionette	INFO	Listening on port 51861
+1639606454595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606483945	Marionette	INFO	Stopped listening on port 51861
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639606502585	geckodriver	INFO	Listening on 127.0.0.1:51941
+1639606505662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51942" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileUntH9T"
+1639606505915	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileUntH9T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51942/devtools/browser/bc662b7b-6738-417b-8554-069ac4362168
+1639606507639	Marionette	INFO	Listening on port 51948
+1639606507710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606514380	Marionette	INFO	Stopped listening on port 51948
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1639606520049	geckodriver	INFO	Listening on 127.0.0.1:52007
+1639606523125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52008" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilerZdmVt"
+1639606523374	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilerZdmVt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52008/devtools/browser/655b8a4a-e881-4dda-b847-75742e9ec390
+1639606525104	Marionette	INFO	Listening on port 52014
+1639606525180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606527951	Marionette	INFO	Stopped listening on port 52014
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639606581229	geckodriver	INFO	Listening on 127.0.0.1:52099
+1639606584307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52100" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileROA0dl"
+1639606584552	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileROA0dl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52100/devtools/browser/7bb70a2e-13b5-4eaa-aaa6-95c55b5f0a03
+1639606586308	Marionette	INFO	Listening on port 52107
+1639606586374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/b_8rsBg2pSAE7OSEuXeXkmKAJRzK7XLbOE8Wp2RNR2Q.js line 1 > eval line 1651 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/b_8rsBg2pSAE7OSEuXeXkmKAJRzK7XLbOE8Wp2RNR2Q.js line 1 > eval line 4297 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/b_8rsBg2pSAE7OSEuXeXkmKAJRzK7XLbOE8Wp2RNR2Q.js line 1 > eval line 5359 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/b_8rsBg2pSAE7OSEuXeXkmKAJRzK7XLbOE8Wp2RNR2Q.js line 1 > eval line 5084 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/b_8rsBg2pSAE7OSEuXeXkmKAJRzK7XLbOE8Wp2RNR2Q.js line 1 > eval line 6951 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/b_8rsBg2pSAE7OSEuXeXkmKAJRzK7XLbOE8Wp2RNR2Q.js line 1 > eval line 2210 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159700&gdpr=1&gdpr_consent=CPRSBxWPRSBxWAKAlAENB5CsAP_AAH_AACiQIbtf_X__bX9j-_5_f_t0eY1P9_r3v-QzjhfNt-8F2L_W_L0X42E7NF36pq4KuR4Eu3LBIQFlHMHUTUmwaokVrzHsak2cpyNKJ7LEmnMZO2dYGHtPn9lTuZKY7_79__fz3j-v_t_-39T378X_3_d5_W---_G_V399zLv9____39nP___9v-_9_3ghqASYal5AF2ZY4Mm0aVQogRhWEhUAoAKKAYWiKwAYHBTsrAJ9QQsAEJqAjAiBBiCjBgEAAAkASERASAFggEQBEAgABAChAQgAImAQWAFgYBAAKAaFiBFAEIEhBkcFRymBAVItFBLZWAJQV7GmEAZb4EUCieiowEazRAsDISFg5jgCQEvFkgeYIAAA.YAAAAAAAAAAA, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159700&gdpr=1&gdpr_consent=CPRSBxWPRSBxWAKAlAENB5CsAP_AAH_AACiQIbtf_X__bX9j-_5_f_t0eY1P9_r3v-QzjhfNt-8F2L_W_L0X42E7NF36pq4KuR4Eu3LBIQFlHMHUTUmwaokVrzHsak2cpyNKJ7LEmnMZO2dYGHtPn9lTuZKY7_79__fz3j-v_t_-39T378X_3_d5_W---_G_V399zLv9____39nP___9v-_9_3ghqASYal5AF2ZY4Mm0aVQogRhWEhUAoAKKAYWiKwAYHBTsrAJ9QQsAEJqAjAiBBiCjBgEAAAkASERASAFggEQBEAgABAChAQgAImAQWAFgYBAAKAaFiBFAEIEhBkcFRymBAVItFBLZWAJQV7GmEAZb4EUCieiowEazRAsDISFg5jgCQEvFkgeYIAAA.YAAAAAAAAAAA, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159700&gdpr=1&gdpr_consent=CPRSBxWPRSBxWAKAlAENB5CsAP_AAH_AACiQIbtf_X__bX9j-_5_f_t0eY1P9_r3v-QzjhfNt-8F2L_W_L0X42E7NF36pq4KuR4Eu3LBIQFlHMHUTUmwaokVrzHsak2cpyNKJ7LEmnMZO2dYGHtPn9lTuZKY7_79__fz3j-v_t_-39T378X_3_d5_W---_G_V399zLv9____39nP___9v-_9_3ghqASYal5AF2ZY4Mm0aVQogRhWEhUAoAKKAYWiKwAYHBTsrAJ9QQsAEJqAjAiBBiCjBgEAAAkASERASAFggEQBEAgABAChAQgAImAQWAFgYBAAKAaFiBFAEIEhBkcFRymBAVItFBLZWAJQV7GmEAZb4EUCieiowEazRAsDISFg5jgCQEvFkgeYIAAA.YAAAAAAAAAAA, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159700&gdpr=1&gdpr_consent=CPRSBxWPRSBxWAKAlAENB5CsAP_AAH_AACiQIbtf_X__bX9j-_5_f_t0eY1P9_r3v-QzjhfNt-8F2L_W_L0X42E7NF36pq4KuR4Eu3LBIQFlHMHUTUmwaokVrzHsak2cpyNKJ7LEmnMZO2dYGHtPn9lTuZKY7_79__fz3j-v_t_-39T378X_3_d5_W---_G_V399zLv9____39nP___9v-_9_3ghqASYal5AF2ZY4Mm0aVQogRhWEhUAoAKKAYWiKwAYHBTsrAJ9QQsAEJqAjAiBBiCjBgEAAAkASERASAFggEQBEAgABAChAQgAImAQWAFgYBAAKAaFiBFAEIEhBkcFRymBAVItFBLZWAJQV7GmEAZb4EUCieiowEazRAsDISFg5jgCQEvFkgeYIAAA.YAAAAAAAAAAA, line 1: ReferenceError: CommonMeta is not defined
+1639606635979	Marionette	INFO	Stopped listening on port 52107
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639606637249	geckodriver	INFO	Listening on 127.0.0.1:52296
+1639606640353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52297" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofiler1I7Ms"
+1639606640600	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofiler1I7Ms\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52297/devtools/browser/a3d09051-4c63-4818-9b26-bc6d2992d59f
+1639606642347	Marionette	INFO	Listening on port 52305
+1639606642407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639606658635	Marionette	INFO	Stopped listening on port 52305
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1639606727783	geckodriver	INFO	Listening on 127.0.0.1:52411
+1639606730886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52412" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile6gdNiv"
+*** You are running in headless mode.
+1639606731137	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile6gdNiv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52412/devtools/browser/4778ef9c-e257-435e-ad73-faf262e62199
+1639606732007	Marionette	INFO	Listening on port 52420
+1639606732441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile3YcxBX"
+*** You are running in headless mode.
+1639606862417	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile3YcxBX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52527/devtools/browser/bd567db7-c3f6-49e2-9df0-b6a15e333c00
+1639606863284	Marionette	INFO	Listening on port 52532
+1639606863721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilemEgA5j"
+*** You are running in headless mode.
+1639606894396	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilemEgA5j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52589/devtools/browser/e6cc06d0-4c78-4104-b730-952c0c26bc31
+1639606895268	Marionette	INFO	Listening on port 52595
+1639606895700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileSTVR0u"
+*** You are running in headless mode.
+1639606918896	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileSTVR0u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52649/devtools/browser/fb6e26f0-20df-49a6-9ce2-43a9f1ecda3c
+1639606919928	Marionette	INFO	Listening on port 52654
+1639606920205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileqUS9dq"
+*** You are running in headless mode.
+1639606965097	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileqUS9dq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52714/devtools/browser/5c0e2eae-5337-4dca-93c7-c04684207079
+1639606965987	Marionette	INFO	Listening on port 52719
+1639606966389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile7hJ1y6"
+*** You are running in headless mode.
+1639607072036	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile7hJ1y6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60535/devtools/browser/1d85f477-9f2d-48cc-9354-33f339004034
+1639607072943	Marionette	INFO	Listening on port 60540
+1639607073324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+ico\\AppData\\Local\\Temp\\rust_mozprofilexCsxFi"
+*** You are running in headless mode.
+1639607287618	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilexCsxFi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60645/devtools/browser/1a328027-66fa-4c17-8027-e988889a4291
+1639607288493	Marionette	INFO	Listening on port 60668
+1639607288908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1639607295836	Marionette	INFO	Stopped listening on port 60668
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639607431290	geckodriver	INFO	Listening on 127.0.0.1:60806
+1639607434364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60807" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileCQNT5v"
+*** You are running in headless mode.
+1639607434607	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileCQNT5v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60807/devtools/browser/cc59b98d-4414-4141-b1ac-2c965db3d5f2
+1639607435530	Marionette	INFO	Listening on port 60812
+1639607435906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile3eNhi5"
+*** You are running in headless mode.
+1639607464860	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile3eNhi5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60866/devtools/browser/64190a41-6dac-4281-abab-df8abc05920e
+1639607465835	Marionette	INFO	Listening on port 60887
+1639607466151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+debugging-port" "60976" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileHxjuvF"
+*** You are running in headless mode.
+1639607582246	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileHxjuvF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60976/devtools/browser/cd0c65e3-3dc6-40b1-82fd-62f74d510d0b
+1639607583147	Marionette	INFO	Listening on port 60982
+1639607583543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileKi4Rt8"
+*** You are running in headless mode.
+1639607709217	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileKi4Rt8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61062/devtools/browser/5d77c055-ca44-44a4-abc7-df432c2e5fbe
+1639607710148	Marionette	INFO	Listening on port 61067
+1639607710516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileJkF8my"
+*** You are running in headless mode.
+1639607722457	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileJkF8my\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61121/devtools/browser/e6b83265-b58b-4d65-86c4-421d9f9ec28e
+1639607723446	Marionette	INFO	Listening on port 61126
+1639607723752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rt" "61206" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileNmHI9H"
+1639607787716	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileNmHI9H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61206/devtools/browser/f95c5b16-9c9c-4b8b-88c1-ea6247edda49
+1639607789564	Marionette	INFO	Listening on port 61211
+1639607789647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639607793803	Marionette	INFO	Stopped listening on port 61211
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1639607888402	geckodriver	INFO	Listening on 127.0.0.1:61289
+1639607891521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61290" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileYvfWu1"
+*** You are running in headless mode.
+1639607891762	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileYvfWu1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61290/devtools/browser/f583d2d6-4a6a-416e-8993-a1c6fd4bf8a4
+1639607892653	Marionette	INFO	Listening on port 61297
+1639607893069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rt" "61332" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile7Qu67y"
+1639607897230	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile7Qu67y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61332/devtools/browser/f970f786-f88b-4150-81cf-7359d31f94d3
+1639607898892	Marionette	INFO	Listening on port 61352
+1639607899051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639607916382	Marionette	INFO	Stopped listening on port 61352
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639607942783	geckodriver	INFO	Listening on 127.0.0.1:61416
+1639607945886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61417" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile9YyPf9"
+*** You are running in headless mode.
+1639607946129	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile9YyPf9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61417/devtools/browser/dcf8787e-38be-4916-87ce-7b6e0196979c
+1639607947281	Marionette	INFO	Listening on port 61426
+1639607947428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+ico\\AppData\\Local\\Temp\\rust_mozprofilevrSCmz"
+*** You are running in headless mode.
+1639607951722	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilevrSCmz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61468/devtools/browser/ad6741e7-532f-4ea5-8c50-0f1e10620955
+1639607952621	Marionette	INFO	Listening on port 61485
+1639607953037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile5bgq4o"
+*** You are running in headless mode.
+1639608218507	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofile5bgq4o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61677/devtools/browser/31637094-c1ad-449d-a408-7d478b7793fb
+1639608219402	Marionette	INFO	Listening on port 61683
+1639608219805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+ico\\AppData\\Local\\Temp\\rust_mozprofilegxxMaO"
+*** You are running in headless mode.
+1639608261229	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilegxxMaO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61758/devtools/browser/08a32061-8538-448c-9bb1-7d36ff8aafda
+1639608262085	Marionette	INFO	Listening on port 61763
+1639608262524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+=3" "--remote-debugging-port" "61910" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileYO2VBv"
+*** You are running in headless mode.
+1639608354902	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileYO2VBv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61910/devtools/browser/9c2b078e-bb01-4d11-bd7b-9e9f6e3d7dca
+1639608355941	Marionette	INFO	Listening on port 61917
+1639608356192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+ico\\AppData\\Local\\Temp\\rust_mozprofilesBQtsn"
+*** You are running in headless mode.
+1639608482832	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilesBQtsn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62040/devtools/browser/a0c4bea9-2212-4d96-a79a-b77ea691bdc1
+1639608483721	Marionette	INFO	Listening on port 62045
+1639608484129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639608553490	Marionette	INFO	Stopped listening on port 62045
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639609992695	geckodriver	INFO	Listening on 127.0.0.1:62425
+1639609995797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62426" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileiDRDxU"
+*** You are running in headless mode.
+1639609996038	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileiDRDxU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62426/devtools/browser/9d9b3340-54b4-4a43-b4d4-82e0d5cf9bd9
+1639609996934	Marionette	INFO	Listening on port 62431
+1639609997361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+ico\\AppData\\Local\\Temp\\rust_mozprofileCjtM9l"
+*** You are running in headless mode.
+1639610044365	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileCjtM9l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62483/devtools/browser/ee822186-c426-4dde-a3fa-771206f42ca2
+1639610045292	Marionette	INFO	Listening on port 62488
+1639610045670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639610116487	Marionette	INFO	Stopped listening on port 62488
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639610319509	geckodriver	INFO	Listening on 127.0.0.1:62604
+1639610322592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62605" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileT6Y4ND"
+*** You are running in headless mode.
+1639610322841	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileT6Y4ND\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62605/devtools/browser/56948300-40bb-4371-afd3-300ed13d03d5
+1639610323735	Marionette	INFO	Listening on port 62611
+1639610324153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileoP1UeL"
+*** You are running in headless mode.
+1639610346727	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileoP1UeL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62661/devtools/browser/3911942b-fcea-451a-b9cb-f2361bc9e466
+1639610347583	Marionette	INFO	Listening on port 62677
+1639610348023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileNoGcxm"
+*** You are running in headless mode.
+1639610373472	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileNoGcxm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62721/devtools/browser/ebb2de71-5900-42b6-a2eb-49e86f92ff80
+1639610374405	Marionette	INFO	Listening on port 62726
+1639610374761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilegxFlNo"
+*** You are running in headless mode.
+1639610476522	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilegxFlNo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62819/devtools/browser/898f98bd-b293-4c9d-9556-798f2fe22e90
+1639610477415	Marionette	INFO	Listening on port 62824
+1639610477817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilefvn9D9"
+*** You are running in headless mode.
+1639610499161	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilefvn9D9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62870/devtools/browser/5bbcdd9d-c9c7-4d73-a3c0-7f587818f8c9
+1639610500072	Marionette	INFO	Listening on port 62875
+1639610500454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilen6oJ0G"
+*** You are running in headless mode.
+1639610585549	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilen6oJ0G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62940/devtools/browser/b71b447b-16d2-4252-9e0f-a679f5c903e4
+1639610586430	Marionette	INFO	Listening on port 62945
+1639610586835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileWar0aP"
+*** You are running in headless mode.
+1639610607514	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileWar0aP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62994/devtools/browser/44aac40a-582a-4a75-aea7-20d72bc3b22e
+1639610608418	Marionette	INFO	Listening on port 62999
+1639610608821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+ico\\AppData\\Local\\Temp\\rust_mozprofileHSq2ri"
+*** You are running in headless mode.
+1639610616708	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileHSq2ri\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63043/devtools/browser/d16beabf-87f9-4b6a-8822-b5cf41572f34
+1639610617610	Marionette	INFO	Listening on port 63048
+1639610617997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileLAsXxe"
+*** You are running in headless mode.
+1639610643165	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileLAsXxe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54754/devtools/browser/64cbb28c-2160-4b4d-b69d-c310a81dfb46
+1639610644052	Marionette	INFO	Listening on port 54962
+1639610644450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+mote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileUQz9yM"
+*** You are running in headless mode.
+1639610665456	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileUQz9yM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55014/devtools/browser/5aa9ab61-4b49-4ddf-8eee-af259f2e07f0
+1639610666332	Marionette	INFO	Listening on port 55020
+1639610666755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+ico\\AppData\\Local\\Temp\\rust_mozprofilexo7k9p"
+*** You are running in headless mode.
+1639610709544	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilexo7k9p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55083/devtools/browser/b14eeb0f-e8c4-44a0-a3b6-f329e07f6291
+1639610710542	Marionette	INFO	Listening on port 55088
+1639610710847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639610778701	Marionette	INFO	Stopped listening on port 55088
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639610851587	geckodriver	INFO	Listening on 127.0.0.1:55200
+1639610854641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55201" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilejyNSXo"
+*** You are running in headless mode.
+1639610854892	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofilejyNSXo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55201/devtools/browser/555632b6-5b7c-48c1-a8d8-fad85a17adae
+1639610855795	Marionette	INFO	Listening on port 55208
+1639610856183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1639612427267	Marionette	INFO	Stopped listening on port 55208
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639612490207	geckodriver	INFO	Listening on 127.0.0.1:55806
+1639612493296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55807" "-no-remote" "-profile" "C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileBzKBKG"
+*** You are running in headless mode.
+1639612493551	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\xhico\\AppData\\Local\\Temp\\rust_mozprofileBzKBKG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55807/devtools/browser/c72a6637-aa9a-4f08-845f-66cf8016d0e1
+1639612494428	Marionette	INFO	Listening on port 55813
+1639612494843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639612597275	Marionette	INFO	Stopped listening on port 55813
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
