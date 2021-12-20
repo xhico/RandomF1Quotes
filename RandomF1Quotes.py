@@ -91,6 +91,5 @@ if __name__ == "__main__":
                               (5 + 3) - len(author) - len(hashtags)] + "..."
 
             tweetStr = "'" + quote + "' -" + author + " " + hashtags
-            print(tweetStr)
             tweet(tweetStr)
             time.sleep(15 * 60)

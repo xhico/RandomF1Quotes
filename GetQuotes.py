@@ -25,7 +25,7 @@ def getQuotes(browser, url):
 
 def setGForm(browser, quotes, author):
 
-    GFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSc69-PQ98n32lWkDrgfhF5P2Fl9FbjQcUmmufsIEGZiROwPWg/viewform"
+    GFormURL = ""
 
     for quote in quotes:
         browser.get(GFormURL)
