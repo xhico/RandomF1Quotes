@@ -6,14 +6,23 @@
 import os
 import sys
 import time
+import json
 import tweepy
 import random
 import pandas as pd
 
-CONSUMER_KEY = os.environ.get('TWITTER_CONSUMER_KEY')
-CONSUMER_SECRET = os.environ.get('TWITTER_CONSUMER_SECRET')
-ACCESS_TOKEN = os.environ.get('TWITTER_ACCESS_TOKEN')
-ACCESS_TOKEN_SECRET = os.environ.get('TWITTER_ACCESS_TOKEN_SECRET')
+
+def get911(key):
+    f = open('/home/pi/.911')
+    data = json.load(f)
+    f.close()
+    return data[key]
+
+
+CONSUMER_KEY = get911('TWITTER_CONSUMER_KEY')
+CONSUMER_SECRET = get911('TWITTER_CONSUMER_SECRET')
+ACCESS_TOKEN = get911('TWITTER_ACCESS_TOKEN')
+ACCESS_TOKEN_SECRET = get911('TWITTER_ACCESS_TOKEN_SECRET')
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
@@ -28,9 +37,9 @@ class IDPrinter(tweepy.Stream):
 def tweet(str):
     try:
         api.update_status(str)
-        # print("Tweeted - " + str)
+        print("Tweeted - " + str)
     except:
-        # print("Failed to Tweet - " + str)
+        print("Failed to Tweet - " + str)
         return False
 
     return True
@@ -39,10 +48,10 @@ def tweet(str):
 def batchDelete():
     for tw in tweepy.Cursor(api.user_timeline).items():
         try:
-            # print("Deleting ID: " + str(tw.id) + " - ", end=" ")
+            print("Deleting ID: " + str(tw.id) + " - ", end=" ")
             api.destroy_status(tw.id)
         except:
-            # print("Failed to Delete")
+            print("Failed to Delete")
             pass
 
     return True
@@ -71,7 +80,7 @@ def getRandomQuote():
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    # print("Login as: " + api.verify_credentials().screen_name)
+    print("Login as: " + api.verify_credentials().screen_name)
 
     # Get op Arg
     try:
