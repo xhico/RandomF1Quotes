@@ -91,14 +91,12 @@ if __name__ == "__main__":
         elif op == "--delete" or op == "-d":
             batchDelete()
     except:
-        while True:
-            quote, author = getRandomQuote()
-            hashtags = "#F1 #Formula1 " + "#" + author.replace(" ", "")
+        quote, author = getRandomQuote()
+        hashtags = "#F1 #Formula1 " + "#" + author.replace(" ", "")
 
-            if len("'" + quote + "' -" + author + hashtags) > 280:
-                quote = quote[0:280 - len(quote) -
-                              (5 + 3) - len(author) - len(hashtags)] + "..."
+        if len("'" + quote + "' -" + author + hashtags) > 280:
+            quote = quote[0:280 - len(quote) -
+                          (5 + 3) - len(author) - len(hashtags)] + "..."
 
-            tweetStr = "'" + quote + "' -" + author + " " + hashtags
-            tweet(tweetStr)
-            time.sleep(15 * 60)
+        tweetStr = "'" + quote + "' -" + author + " " + hashtags
+        tweet(tweetStr)
