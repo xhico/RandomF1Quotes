@@ -3,11 +3,13 @@
 
 # python3 -m pip install tweepy pandas --no-cache-dir
 
-import os
 import json
-import tweepy
+import os
 import random
+
 import pandas as pd
+import tweepy
+import yagmail
 
 
 def get911(key):
@@ -21,6 +23,9 @@ CONSUMER_KEY = get911('TWITTER_CONSUMER_KEY')
 CONSUMER_SECRET = get911('TWITTER_CONSUMER_SECRET')
 ACCESS_TOKEN = get911('TWITTER_ACCESS_TOKEN')
 ACCESS_TOKEN_SECRET = get911('TWITTER_ACCESS_TOKEN_SECRET')
+EMAIL_USER = get911('EMAIL_USER')
+EMAIL_APPPW = get911('EMAIL_APPPW')
+EMAIL_RECEIVER = get911('EMAIL_RECEIVER')
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
@@ -65,14 +70,18 @@ def getRandomQuote():
 
 
 if __name__ == "__main__":
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    print("Login as: " + api.verify_credentials().screen_name)
+    try:
+        os.chdir(os.path.dirname(os.path.abspath(__file__)))
+        print("Login as: " + api.verify_credentials().screen_name)
 
-    quote, author = getRandomQuote()
-    hashtags = "#F1 #Formula1 " + "#" + author.replace(" ", "")
+        quote, author = getRandomQuote()
+        hashtags = "#F1 #Formula1 " + "#" + author.replace(" ", "")
 
-    if len("'" + quote + "' -" + author + hashtags) > 280:
-        quote = quote[0:280 - len(quote) - (5 + 3) - len(author) - len(hashtags)] + "..."
+        if len("'" + quote + "' -" + author + hashtags) > 280:
+            quote = quote[0:280 - len(quote) - (5 + 3) - len(author) - len(hashtags)] + "..."
 
-    tweetStr = "'" + quote + "' -" + author + " " + hashtags
-    tweet(tweetStr)
+        tweetStr = "'" + quote + "' -" + author + " " + hashtags
+        tweet(tweetStr)
+    except Exception as ex:
+        print(ex)
+        yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - RandomF1Quotes", str(ex))
