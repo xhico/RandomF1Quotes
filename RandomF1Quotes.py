@@ -32,30 +32,9 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
 
-class IDPrinter(tweepy.Stream):
-    def on_status(self, status):
-        print(status.text)
-
-
 def tweet(str):
     api.update_status(str)
     print("Tweeted - " + str)
-
-    return True
-
-
-def batchDelete():
-    for tw in tweepy.Cursor(api.user_timeline).items():
-        api.destroy_status(tw.id)
-        print("Deleted ID: " + str(tw.id) + " - ", end=" ")
-
-    return True
-
-
-def follow(usernames):
-    userIDs = [api.get_user(screen_name=username).id_str for username in usernames]
-    printer = IDPrinter(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-    printer.filter(follow=userIDs)
 
     return True
 
