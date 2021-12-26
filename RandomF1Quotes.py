@@ -63,4 +63,4 @@ if __name__ == "__main__":
         tweet(tweetStr)
     except Exception as ex:
         print(ex)
-        yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - RandomF1Quotes", str(ex))
+        yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - " + os.path.basename(__file__) + str(ex))
