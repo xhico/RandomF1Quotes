@@ -3,6 +3,7 @@
 
 # python3 -m pip install tweepy pandas --no-cache-dir
 
+import datetime
 import json
 import os
 import random
@@ -10,6 +11,7 @@ import random
 import pandas as pd
 import tweepy
 import yagmail
+from dateutil.relativedelta import relativedelta
 
 
 def get911(key):
@@ -32,9 +34,9 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
 
-def tweet(str):
-    api.update_status(str)
-    print("Tweeted - " + str)
+def tweet(tweetStr):
+    api.update_status(tweetStr)
+    print("Tweeted - " + tweetStr)
 
     return True
 
@@ -48,19 +50,52 @@ def getRandomQuote():
     return quote, author
 
 
-if __name__ == "__main__":
+def getTweets(tags, dateSince, numbTweets):
+    tags = tags.replace(" ", " OR ")
+    tweets = tweepy.Cursor(api.search_tweets, q=tags, since=dateSince).items(numbTweets)
+    tweets = [tw for tw in tweets]
+    return tweets
+
+
+def favTweets(tweets):
+    for tw in tweets:
+        try:
+            tw.favorite()
+            print(str(tw.id) + " - Like")
+        except Exception as e:
+            print(str(tw.id) + " - " + str(e))
+            pass
+
+    return True
+
+
+def main():
     try:
         os.chdir(os.path.dirname(os.path.abspath(__file__)))
         print("Login as: " + api.verify_credentials().screen_name)
 
+        # Get quote | Set hashtags
         quote, author = getRandomQuote()
         hashtags = "#F1 #Formula1 " + "#" + author.replace(" ", "")
 
+        # Reduce quote if necessary
         if len("'" + quote + "' -" + author + hashtags) > 280:
             quote = quote[0:280 - len(quote) - (5 + 3) - len(author) - len(hashtags)] + "..."
 
-        tweetStr = "'" + quote + "' -" + author + " " + hashtags
-        tweet(tweetStr)
+        # Tweet!
+        tweet("'" + quote + "' -" + author + " " + hashtags)
+
+        # Set deltaDate | Set numbTweets | Set Hashtags
+        deltaDate = datetime.date.today() + relativedelta(months=-1)
+        numTweets = 100
+
+        # Get tweets -> Like them
+        tws = getTweets(hashtags, deltaDate, numTweets)
+        favTweets(tws)
     except Exception as ex:
         print(ex)
         yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - " + os.path.basename(__file__) + str(ex))
+
+
+if __name__ == "__main__":
+    main()
