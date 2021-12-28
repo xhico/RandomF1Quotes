@@ -94,7 +94,7 @@ def main():
         favTweets(tws)
     except Exception as ex:
         print(ex)
-        yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - " + os.path.basename(__file__) + str(ex))
+        yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - " + os.path.basename(__file__), str(ex))
 
 
 if __name__ == "__main__":
