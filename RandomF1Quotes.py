@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/python3
 
-# python3 -m pip install tweepy pandas --no-cache-dir
+# python3 -m pip install tweepy yagmail pandas --no-cache-dir
 
 import datetime
 import json
@@ -15,9 +15,8 @@ from dateutil.relativedelta import relativedelta
 
 
 def get911(key):
-    f = open('/home/pi/.911')
-    data = json.load(f)
-    f.close()
+    with open('/home/pi/.911') as f:
+        data = json.load(f)
     return data[key]
 
 
