@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/python3
 
-# python3 -m pip install tweepy yagmail pandas --no-cache-dir
+# python3 -m pip install tweepy yagmail pandas python-dateutil --no-cache-dir
 
-import datetime
 import json
 import os
 import random
@@ -11,7 +10,6 @@ import random
 import pandas as pd
 import tweepy
 import yagmail
-from dateutil.relativedelta import relativedelta
 
 
 def get911(key):
@@ -49,14 +47,11 @@ def getRandomQuote():
     return quote, author
 
 
-def getTweets(tags, dateSince, numbTweets):
+def favTweets(tags, numbTweets):
     tags = tags.replace(" ", " OR ")
-    tweets = tweepy.Cursor(api.search_tweets, q=tags, since=dateSince).items(numbTweets)
+    tweets = tweepy.Cursor(api.search_tweets, q=tags).items(numbTweets)
     tweets = [tw for tw in tweets]
-    return tweets
 
-
-def favTweets(tweets):
     for tw in tweets:
         try:
             tw.favorite()
@@ -84,13 +79,8 @@ def main():
         # Tweet!
         tweet("'" + quote + "' -" + author + " " + hashtags)
 
-        # Set deltaDate | Set numbTweets | Set Hashtags
-        deltaDate = datetime.date.today() + relativedelta(months=-1)
-        numTweets = 10
-
         # Get tweets -> Like them
-        tws = getTweets(hashtags, deltaDate, numTweets)
-        favTweets(tws)
+        favTweets(hashtags, 10)
     except Exception as ex:
         print(ex)
         yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - " + os.path.basename(__file__), str(ex))
