@@ -6,7 +6,7 @@ import datetime
 import json
 import os
 import random
-
+import psutil
 import pandas as pd
 import tweepy
 import yagmail
@@ -48,6 +48,7 @@ def getRandomQuote():
 
 
 def favTweets(tags, numbTweets):
+    print("favTweets")
     tags = tags.replace(" ", " OR ")
     tweets = tweepy.Cursor(api.search_tweets, q=tags).items(numbTweets)
     tweets = [tw for tw in tweets]
@@ -55,38 +56,42 @@ def favTweets(tags, numbTweets):
     for tw in tweets:
         try:
             tw.favorite()
-            print(str(tw.id) + " - Like")
         except Exception as e:
-            print(str(tw.id) + " - " + str(e))
             pass
 
     return True
 
 
 def main():
-    try:
-        print("----------------------------------------------------")
-        print(str(datetime.datetime.now().strftime("%Y/%m/%d %H:%M:%S")))
-        os.chdir(os.path.dirname(os.path.abspath(__file__)))
-        print("Login as: " + api.verify_credentials().screen_name)
+    # Get quote | Set hashtags
+    quote, author = getRandomQuote()
+    hashtags = "#F1 #Formula1 " + "#" + author.replace(" ", "")
 
-        # Get quote | Set hashtags
-        quote, author = getRandomQuote()
-        hashtags = "#F1 #Formula1 " + "#" + author.replace(" ", "")
+    # Reduce quote if necessary
+    if len("'" + quote + "' -" + author + hashtags) > 280:
+        quote = quote[0:280 - len(quote) - (5 + 3) - len(author) - len(hashtags)] + "..."
 
-        # Reduce quote if necessary
-        if len("'" + quote + "' -" + author + hashtags) > 280:
-            quote = quote[0:280 - len(quote) - (5 + 3) - len(author) - len(hashtags)] + "..."
+    # Tweet!
+    tweet("'" + quote + "' -" + author + " " + hashtags)
 
-        # Tweet!
-        tweet("'" + quote + "' -" + author + " " + hashtags)
-
-        # Get tweets -> Like them
-        favTweets(hashtags, 10)
-    except Exception as ex:
-        print(ex)
-        yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - " + os.path.basename(__file__), str(ex))
+    # Get tweets -> Like them
+    favTweets(hashtags, 10)
 
 
 if __name__ == "__main__":
-    main()
+    print("----------------------------------------------------")
+    print(str(datetime.datetime.now().strftime("%Y/%m/%d %H:%M:%S")))
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    
+    # Check if script is already running
+    procs = [proc for proc in psutil.process_iter(attrs=["cmdline"]) if os.path.basename(__file__) in '\t'.join(proc.info["cmdline"])]
+    if len(procs) > 2:
+        print("isRunning")
+    else:
+        try:
+            main()
+        except Exception as ex:
+            print(ex)
+            yagmail.SMTP(EMAIL_USER, EMAIL_APPPW).send(EMAIL_RECEIVER, "Error - " + os.path.basename(__file__), str(ex))
+        finally:
+            print("End")
