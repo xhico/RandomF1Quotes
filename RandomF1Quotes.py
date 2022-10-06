@@ -33,10 +33,14 @@ api = tweepy.API(auth)
 
 
 def tweet(tweetStr):
-    api.update_status(tweetStr)
-    print("Tweeted - " + tweetStr)
-
-    return True
+    try:
+        api.update_status(tweetStr)
+        print("Tweeted")
+        return True
+    except Exception as ex:
+        print(ex)
+        print("Failed")
+    return False
 
 
 def getRandomQuote():
