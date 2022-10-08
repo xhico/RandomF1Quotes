@@ -1,6 +1,0 @@
-selenium
-tweepy
-yagmail
-pandas
-python-dateutil
-psutil
