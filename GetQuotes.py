@@ -24,7 +24,6 @@ def getQuotes(browser, url):
 
 
 def setGForm(browser, quotes, author):
-
     GFormURL = ""
 
     for quote in quotes:
