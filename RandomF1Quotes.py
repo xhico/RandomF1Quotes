@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/python3
 
-# python3 -m pip install tweepy yagmail pandas python-dateutil psutil --no-cache-dir
-
-import datetime
-import json
 import logging
 import os
 import random
@@ -13,7 +9,6 @@ import pandas as pd
 import tweepy
 import yagmail
 import traceback
-import base64
 from Misc import get911
 
 
