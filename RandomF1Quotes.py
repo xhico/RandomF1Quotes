@@ -4,11 +4,13 @@
 import logging
 import os
 import random
-import psutil
+import traceback
+
 import pandas as pd
+import psutil
 import tweepy
 import yagmail
-import traceback
+
 from Misc import get911
 
 

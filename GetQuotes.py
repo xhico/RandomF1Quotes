@@ -4,6 +4,7 @@
 # python3 -m pip install selenium --no-cache-dir
 
 import os
+
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
